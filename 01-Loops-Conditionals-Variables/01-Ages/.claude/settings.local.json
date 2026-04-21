@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/zzero/.claude/projects/**)",
+      "Bash(grep -v \"^.\\\\{1\\\\}$\")",
+      "Bash(cd /tmp)",
+      "Bash(cp \"/c/Users/zzero/OneDrive/Desktop/developingsystemsvum/06-Objects/06-Objects.docx\" .)",
+      "Bash(unzip -p \"06-Objects.docx\" \"word/document.xml\")",
+      "Bash(sed 's/<[^>]*>//g')"
+    ]
+  }
+}
